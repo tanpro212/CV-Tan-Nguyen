@@ -8,4 +8,201 @@ border: 1px solid black ;
     margin-top: 10px;
     border-radius: 40%
 }
+.vb1{
+    font-size: 15px;
+    padding: 15px;
+}
+.vb2{
+    font-size: 45px;
+    padding: 20px;
+}
+.vb3{
+    font-size: 15px;
+    padding: 8px;
+}
+#vb4{
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+    color: white;
+}
+#vb5 {
+    font-size: 17px;
+    padding: 8px;
+    color: white;
+    margin-bottom: 1%;
+    margin-left: -6%;
+}
+#vb6 {
+    font-size: 17px;
+    padding: 8px;
+    color: white;
+    margin-bottom: 1%;
+    margin-left: -6%;
+}
+#vb7{
+    font-size: 20px;
+    text-align: center;
+    padding: 4px;
+    color: white;
+    margin-top: -5%;
+}
+#vb8{
+    font-size: 20px;
+    text-align: left;
+    padding-top: 5%;
+    color: white;
+    margin-top: -5%;
+}
+#vb9{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+#vb10{
+    color: black;
+    font-size: 20px;
+    padding-top: -8%;
+    margin-left: 1%;
+}
+#img1{
+    width: 85%;
+    padding: -3px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 20%;
+}
+.col-sm-3{
+    background-color: black;
+}
+#row1{
+    background-color: snow;
+}
+.icon1 {
+    font-size: 20px;
+    color: white;
+    padding-top: 5px;
+    margin-left: -20%;
+}
+.fa-facebook{
+    color: white;
+}
+.fa:hover{
+    opacity: 0.8;
+    color: white;
+    text-decoration: none;
+}
+.line{
+    border-top: white;
+    width: 220px;
+
+}
+.line2{
+    border-top: 2px solid black;
+    width: 800px;
+}
+.line3{
+    border-top: 2px solid black;
+    width: 800px;
+    margin-top: 5%;
+    margin-bottom: -3%;
+}
+#icon2{
+    color: yellow;
+    margin-top: 6%;
+    padding: 2%;
+}
+#icon22{
+    padding: 2%;
+    color: white;
+}
+#theme{
+    right: -12%;
+}
+#name{
+    font-size: 15px;
+    padding: 8px;
+    color: white;
+    margin-bottom: 1%;
+    margin-left: -32%;
+}
+#theme2{
+    margin-left: 5%;
+    padding: 2%;
+}
+.icon3{
+    font-size: 22px;
+    color: black;
+    padding-top: 5px;
+    float: right;
+}
+.icon4{
+    font-size: 22px;
+    color: black;
+    padding-top: -6px;
+    margin-top: 0%;
+    float: right;
+}
+#row2{
+    background-color: snow;
+}
+.timeline ul li {
+    list-style-type: none;
+    position: relative;
+    width: 5px;
+    margin: 0 auto;
+    padding-top: 30px;
+    background: black;
+}
+
+.timeline ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: orangered;
+}
+.timeline ul li div {
+    position: relative;
+    bottom: 0;
+    width: 300px;
+    padding: 10px;
+    background: black;
+    margin-left: 20px;
+}
+
+.timeline ul li div::before {
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+.timeline ul li:nth-child(odd) div {
+    left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent black transparent transparent;
+}
+.timeline ul li:nth-child(even) div {
+    left: -390px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+    right: -15px;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent transparent transparent black;
+}
+#name2{
+    color: white;
+    text-align: center;
 }
