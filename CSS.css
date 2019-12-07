@@ -109,6 +109,23 @@ body *{
 .position_summary {
     font-size: 12px;
 }
+.company{
+    text-transform: uppercase;
+    font-size: 21px;
+}
+.border1 {
+    border-right: 2px solid red;
+}
+.time {
+    border: 2px solid red;
+    border-right: 0px;
+}
+#icon23 {
+    float: right;
+    margin-left: 85px;
+    position: fixed;
+    padding: 2px;
+}
 .line{
     border-top: black;
     width: 220px;
