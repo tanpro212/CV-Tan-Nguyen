@@ -102,6 +102,13 @@ body *{
     color: black;
     text-decoration: none;
 }
+.position {
+    color: #76c3b3;
+    font-size: 20px;
+}
+.position_summary {
+    font-size: 12px;
+}
 .line{
     border-top: black;
     width: 220px;
